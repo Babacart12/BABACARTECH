@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projets — Babacar Touré</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/projets.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-logo">BT<span class="dot">.</span></div>
+    <ul class="nav-links">
+      <li><a href="../index.html">Accueil</a></li>
+      <li><a href="projets.html" class="active">Projets</a></li>
+      <li><a href="competences.html">Compétences</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="burger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- HERO PAGE -->
+  <section class="page-hero">
+    <div class="hero-bg">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <div class="grid-overlay"></div>
+    </div>
+    <div class="page-hero-content">
+      <span class="section-tag">Portfolio</span>
+      <h1 class="page-title">Mes <span class="gradient-text">Projets</span></h1>
+      <p class="page-desc">Du hardware à la data, en passant par le web — des projets réels avec un impact réel.</p>
+    </div>
+  </section>
+
+  <!-- RECHERCHE -->
+  <section class="search-section">
+    <div class="container">
+      <form class="search-form" id="searchForm" action="#" method="get">
+        <div class="search-box">
+          <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+          </svg>
+          <input type="search" id="searchInput" name="q"
+            placeholder="Rechercher un projet par mot-clé..." autocomplete="off" />
+          <button type="submit" class="btn-primary search-btn">Rechercher</button>
+        </div>
+        <div class="filter-tags">
+          <button type="button" class="filter-tag active" data-filter="all">Tous</button>
+          <button type="button" class="filter-tag" data-filter="arduino">Arduino</button>
+          <button type="button" class="filter-tag" data-filter="php">PHP</button>
+          <button type="button" class="filter-tag" data-filter="python">Python</button>
+          <button type="button" class="filter-tag" data-filter="html">HTML/CSS</button>
+        </div>
+      </form>
+      <p class="search-results-info" id="searchInfo"></p>
+    </div>
+  </section>
+
+  <!-- GRILLE PROJETS -->
+  <section class="section projets-page-section">
+    <div class="container">
+      <div class="projets-page-grid" id="projetsGrid">
+
+        <!-- ===== PROJET 1 : POUBELLE INTELLIGENTE ===== -->
+        <article class="projet-card-full featured-project" data-tags="arduino electronique groupe">
+          <div class="projet-category-banner" style="background: linear-gradient(135deg,#ff6b35,#ffd700);">
+            🛠️ Solution Réelle
+          </div>
+          <div class="pcf-img">
+            <img
+              src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80"
+              alt="Poubelle intelligente — capteur ultrason Arduino sans contact"
+              loading="lazy"
+            />
+            <div class="pcf-overlay">
+              <div class="pcf-links">
+                <a href="#" class="pcf-link">Voir le code →</a>
+              </div>
+            </div>
+            <div class="pcf-num">01</div>
+          </div>
+          <div class="pcf-body">
+            <div class="card-tags">
+              <span class="tag tag-arduino">Arduino</span>
+              <span class="tag">C/C++</span>
+              <span class="tag">Électronique</span>
+              <span class="tag">Groupe</span>
+            </div>
+            <h2 class="pcf-title">Poubelle Intelligente 🗑️</h2>
+
+            <div class="projet-problem">
+              <span class="problem-label">🔴 Problème</span>
+              <p>Toucher une poubelle sale avec les mains est un vecteur de transmission de germes et de maladies.</p>
+            </div>
+            <div class="projet-solution">
+              <span class="problem-label solution-label">🟢 Solution</span>
+              <p>Un capteur ultrasonique HC-SR04 détecte l'approche de la main et déclenche l'ouverture automatique du couvercle via un servomoteur — zéro contact, hygiène maximale.</p>
+            </div>
+
+            <ul class="pcf-details">
+              <li><span class="detail-label">Technologies :</span> Arduino UNO, HC-SR04, Servomoteur</li>
+              <li><span class="detail-label">Type :</span> Projet groupe — IoT & Électronique</li>
+              <li><span class="detail-label">Impact :</span> Hygiène automatisée, sans contact</li>
+              <li><span class="detail-label">Statut :</span> <span class="badge-done">Terminé</span></li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- ===== PROJET 2 : SITE PORTFOLIO LICENCE 1 ===== -->
+        <article class="projet-card-full featured-project" data-tags="php html css mysql groupe">
+          <div class="projet-category-banner" style="background: linear-gradient(135deg,#00d4ff,#a855f7);">
+            🌐 Full-Stack Web
+          </div>
+          <div class="pcf-img">
+            <img
+              src="https://images.unsplash.com/photo-1547658719-da2b51169166?w=800&q=80"
+              alt="Site portfolio Licence 1 — HTML CSS PHP MySQL"
+              loading="lazy"
+            />
+            <div class="pcf-overlay">
+              <div class="pcf-links">
+                <a href="#" class="pcf-link">Voir le projet →</a>
+                <a href="#" class="pcf-link pcf-link-ghost">GitHub</a>
+              </div>
+            </div>
+            <div class="pcf-num">02</div>
+          </div>
+          <div class="pcf-body">
+            <div class="card-tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">PHP</span>
+              <span class="tag">MySQL</span>
+              <span class="tag">Groupe</span>
+            </div>
+            <h2 class="pcf-title">Site Portfolio — Licence 1 🌐</h2>
+
+            <div class="projet-problem">
+              <span class="problem-label">🔴 Contexte</span>
+              <p>Projet académique de Licence 1 : concevoir un site portfolio complet en équipe, de la maquette au déploiement.</p>
+            </div>
+            <div class="projet-solution">
+              <span class="problem-label solution-label">🟢 Réalisation</span>
+              <p>Site multipage responsive avec back-end PHP, base de données MySQL et design CSS moderne. Maîtrise complète de la chaîne front → back → base de données.</p>
+            </div>
+
+            <div class="tech-stack-visual">
+              <div class="stack-item">
+                <span class="stack-icon html-icon">&#60;/&#62;</span>
+                <span>Structure</span>
+              </div>
+              <span class="stack-arrow">→</span>
+              <div class="stack-item">
+                <span class="stack-icon css-icon">{ }</span>
+                <span>Design</span>
+              </div>
+              <span class="stack-arrow">→</span>
+              <div class="stack-item">
+                <span class="stack-icon php-icon">PHP</span>
+                <span>Logique</span>
+              </div>
+              <span class="stack-arrow">→</span>
+              <div class="stack-item">
+                <span class="stack-icon" style="background:rgba(255,215,0,0.15);color:#ffd700;">DB</span>
+                <span>Données</span>
+              </div>
+            </div>
+
+            <ul class="pcf-details">
+              <li><span class="detail-label">Technologies :</span> HTML, CSS, PHP, MySQL</li>
+              <li><span class="detail-label">Type :</span> Projet académique — Licence 1</li>
+              <li><span class="detail-label">Statut :</span> <span class="badge-done">Terminé</span></li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- ===== PROJET 3 : DATA SCIENCE PANDAS / NUMPY ===== -->
+        <article class="projet-card-full featured-project" data-tags="python pandas numpy data">
+          <div class="projet-category-banner" style="background: linear-gradient(135deg,#00c864,#00d4ff);">
+            📊 Analyse & Données
+          </div>
+          <div class="pcf-img">
+            <img
+              src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80"
+              alt="Analyse de données Python Pandas NumPy — DataCamp"
+              loading="lazy"
+            />
+            <div class="pcf-overlay">
+              <div class="pcf-links">
+                <a href="#" class="pcf-link">Voir le notebook →</a>
+              </div>
+            </div>
+            <div class="pcf-num">03</div>
+          </div>
+          <div class="pcf-body">
+            <div class="card-tags">
+              <span class="tag tag-python">Python</span>
+              <span class="tag tag-python">Pandas</span>
+              <span class="tag tag-python">NumPy</span>
+              <span class="tag">DataCamp</span>
+            </div>
+            <h2 class="pcf-title">Analyse de Données — DataCamp 📊</h2>
+
+            <div class="projet-problem">
+              <span class="problem-label">🔴 Contexte</span>
+              <p>Manipulation et analyse de jeux de données réels sur DataCamp pour extraire des insights exploitables.</p>
+            </div>
+            <div class="projet-solution">
+              <span class="problem-label solution-label">🟢 Compétences acquises</span>
+              <p>Manipulation de DataFrames avec Pandas, calculs vectorisés avec NumPy, nettoyage de données (valeurs manquantes, doublons) et extraction de statistiques.</p>
+            </div>
+
+            <div class="data-skills">
+              <div class="data-skill-item">
+                <div class="data-skill-bar">
+                  <div class="data-skill-fill" style="width:80%;background:linear-gradient(90deg,#00c864,#00d4ff);"></div>
+                </div>
+                <span>Pandas — DataFrames & tri</span>
+              </div>
+              <div class="data-skill-item">
+                <div class="data-skill-bar">
+                  <div class="data-skill-fill" style="width:70%;background:linear-gradient(90deg,#00d4ff,#a855f7);"></div>
+                </div>
+                <span>NumPy — Calculs vectorisés</span>
+              </div>
+              <div class="data-skill-item">
+                <div class="data-skill-bar">
+                  <div class="data-skill-fill" style="width:65%;background:linear-gradient(90deg,#ffd700,#ff6b35);"></div>
+                </div>
+                <span>Nettoyage & manipulation</span>
+              </div>
+            </div>
+
+            <ul class="pcf-details">
+              <li><span class="detail-label">Outils :</span> Python, Pandas, NumPy, Jupyter</li>
+              <li><span class="detail-label">Plateforme :</span> DataCamp</li>
+              <li><span class="detail-label">Statut :</span> <span class="badge-done">Terminé</span></li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- ===== PROJET 4 : CE PORTFOLIO ===== -->
+        <article class="projet-card-full" data-tags="html css js php">
+          <div class="pcf-img">
+            <img
+              src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=800&q=80"
+              alt="Portfolio personnel Babacar Touré — développement web créatif"
+              loading="lazy"
+            />
+            <div class="pcf-overlay">
+              <div class="pcf-links">
+                <a href="../index.html" class="pcf-link">Voir le site →</a>
+                <a href="#" class="pcf-link pcf-link-ghost">GitHub</a>
+              </div>
+            </div>
+            <div class="pcf-num">04</div>
+          </div>
+          <div class="pcf-body">
+            <div class="card-tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JS</span>
+              <span class="tag">PHP</span>
+            </div>
+            <h2 class="pcf-title">Ce Portfolio 🎨</h2>
+            <p class="pcf-desc">
+              Mon portfolio personnel conçu de A à Z — identité visuelle forte, animations CSS,
+              recherche de projets dynamique et déployé sur GitHub Pages.
+            </p>
+            <ul class="pcf-details">
+              <li><span class="detail-label">Type :</span> Projet personnel</li>
+              <li><span class="detail-label">Statut :</span> <span class="badge-progress">En cours</span></li>
+            </ul>
+          </div>
+        </article>
+
+        <div class="no-results" id="noResults" style="display:none;">
+          <p>Aucun projet ne correspond à ta recherche. 🔍</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-logo">BT<span class="dot">.</span></div>
+      <p class="footer-copy">© 2026 Babacar Touré — Tous droits réservés</p>
+      <div class="footer-links">
+        <a href="#">GitHub</a>
+        <a href="#">LinkedIn</a>
+
+      </div>
+    </div>
+  </footer>
+
+  <script src="../main.js"></script>
+</body>
+</html> 
