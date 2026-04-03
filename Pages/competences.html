@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Compétences — Babacar Touré</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/competences.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-logo">BT<span class="dot">.</span></div>
+    <ul class="nav-links">
+      <li><a href="../index.html">Accueil</a></li>
+      <li><a href="projets.html">Projets</a></li>
+      <li><a href="competences.html" class="active">Compétences</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="burger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- HERO PAGE -->
+  <section class="page-hero">
+    <div class="hero-bg">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <div class="grid-overlay"></div>
+    </div>
+    <div class="page-hero-content">
+      <span class="section-tag">Stack</span>
+      <h1 class="page-title">Mes <span class="gradient-text">Compétences</span></h1>
+      <p class="page-desc">Les technologies que j'apprends et maîtrise, au fil du temps.</p>
+    </div>
+  </section>
+
+  <!-- À PROPOS + PHOTO -->
+  <section class="about-section section">
+    <div class="container about-grid">
+      <div class="about-img-wrapper">
+        <img
+          src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=700&q=80"
+          alt="Environnement de travail d'un développeur web — ordinateur avec code"
+          class="about-img"
+          loading="lazy"
+        />
+        <div class="about-img-badge">
+          <span>🚀</span>
+          <span>En formation continue</span>
+        </div>
+      </div>
+      <div class="about-text">
+        <span class="section-tag">À propos</span>
+        <h2 class="section-title" style="text-align:left; margin-top: 1rem;">Qui suis-je ?</h2>
+        <p>
+          Je suis <strong>Babacar Touré</strong>, étudiant en développement web passionné par la création
+          d'interfaces belles et fonctionnelles. J'apprends à concevoir des sites du front-end au back-end,
+          avec un vrai intérêt pour le design et l'expérience utilisateur.
+        </p>
+        <p style="margin-top: 1rem; color: var(--clr-text-muted);">
+          Mon objectif : maîtriser la pile complète HTML · CSS · JavaScript · PHP pour créer
+          des applications web professionnelles et impactantes.
+        </p>
+        <div class="about-badges">
+          <span class="about-badge">🎓 Étudiant développeur</span>
+          <span class="about-badge">🌍 Dakar, Sénégal</span>
+          <span class="about-badge">💡 Curieux & créatif</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMPÉTENCES TECHNIQUES -->
+  <section class="section tech-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Technique</span>
+        <h2 class="section-title">Technologies</h2>
+        <p class="section-desc">Mes outils du quotidien.</p>
+      </div>
+
+      <div class="tech-grid">
+
+        <div class="tech-card">
+          <div class="tech-card-header">
+            <div class="tech-icon html-icon">&#60;/&#62;</div>
+            <div>
+              <h3>HTML5</h3>
+              <span class="tech-level level-good">Avancé</span>
+            </div>
+          </div>
+          <img
+            src="https://images.unsplash.com/photo-1621839673705-6617adf9e890?w=600&q=80"
+            alt="HTML5 — structure web"
+            class="tech-img"
+            loading="lazy"
+          />
+          <div class="tech-bar-wrapper">
+            <div class="tech-bar" data-width="85">
+              <div class="tech-bar-fill" style="width:0%"></div>
+            </div>
+            <span class="tech-percent">85%</span>
+          </div>
+          <ul class="tech-list">
+            <li>Structure sémantique</li>
+            <li>Formulaires & accessibilité</li>
+            <li>Balises multimédia</li>
+          </ul>
+        </div>
+
+        <div class="tech-card">
+          <div class="tech-card-header">
+            <div class="tech-icon css-icon">{ }</div>
+            <div>
+              <h3>CSS3</h3>
+              <span class="tech-level level-good">Avancé</span>
+            </div>
+          </div>
+          <img
+            src="https://images.unsplash.com/photo-1523437113738-bbd3cc89fb19?w=600&q=80"
+            alt="CSS3 — design et mise en page"
+            class="tech-img"
+            loading="lazy"
+          />
+          <div class="tech-bar-wrapper">
+            <div class="tech-bar" data-width="80">
+              <div class="tech-bar-fill" style="width:0%"></div>
+            </div>
+            <span class="tech-percent">80%</span>
+          </div>
+          <ul class="tech-list">
+            <li>Flexbox & CSS Grid</li>
+            <li>Animations & transitions</li>
+            <li>Media queries & responsive</li>
+          </ul>
+        </div>
+
+        <div class="tech-card">
+          <div class="tech-card-header">
+            <div class="tech-icon js-icon">JS</div>
+            <div>
+              <h3>JavaScript</h3>
+              <span class="tech-level level-mid">Intermédiaire</span>
+            </div>
+          </div>
+          <img
+            src="https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?w=600&q=80"
+            alt="JavaScript — programmation web"
+            class="tech-img"
+            loading="lazy"
+          />
+          <div class="tech-bar-wrapper">
+            <div class="tech-bar" data-width="65">
+              <div class="tech-bar-fill" style="width:0%"></div>
+            </div>
+            <span class="tech-percent">65%</span>
+          </div>
+          <ul class="tech-list">
+            <li>DOM & événements</li>
+            <li>Fonctions & tableaux</li>
+            <li>Fetch & JSON</li>
+          </ul>
+        </div>
+
+        <div class="tech-card">
+          <div class="tech-card-header">
+            <div class="tech-icon php-icon">PHP</div>
+            <div>
+              <h3>PHP & MySQL</h3>
+              <span class="tech-level level-begin">Débutant+</span>
+            </div>
+          </div>
+          <img
+            src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=600&q=80"
+            alt="PHP MySQL — serveur et base de données"
+            class="tech-img"
+            loading="lazy"
+          />
+          <div class="tech-bar-wrapper">
+            <div class="tech-bar" data-width="50">
+              <div class="tech-bar-fill" style="width:0%"></div>
+            </div>
+            <span class="tech-percent">50%</span>
+          </div>
+          <ul class="tech-list">
+            <li>Variables & superglobales</li>
+            <li>Requêtes SQL de base</li>
+            <li>Sessions & formulaires</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- OUTILS -->
+  <section class="section tools-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Environnement</span>
+        <h2 class="section-title">Mes outils</h2>
+      </div>
+      <div class="tools-grid">
+        <div class="tool-item">
+          <img src="https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=200&q=80"
+               alt="VS Code — éditeur de code" loading="lazy" />
+          <span>VS Code</span>
+        </div>
+        <div class="tool-item">
+          <img src="https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?w=200&q=80"
+               alt="GitHub — gestion de versions" loading="lazy" />
+          <span>GitHub</span>
+        </div>
+        <div class="tool-item">
+          <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80"
+               alt="Figma — design d'interfaces" loading="lazy" />
+          <span>Figma</span>
+        </div>
+        <div class="tool-item">
+          <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=200&q=80"
+               alt="Serveur local — XAMPP" loading="lazy" />
+          <span>XAMPP</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TIMELINE -->
+  <section class="section timeline-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Parcours</span>
+        <h2 class="section-title">Ma progression</h2>
+      </div>
+      <div class="timeline">
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <span class="tl-date">2024</span>
+            <h3>Début du parcours</h3>
+            <p>Premiers pas en HTML & CSS. Création des premières pages statiques.</p>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <span class="tl-date">2025</span>
+            <h3>JavaScript & interactivité</h3>
+            <p>Découverte du DOM, des événements et des premières applications dynamiques.</p>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <span class="tl-date">2025–2026</span>
+            <h3>PHP & MySQL</h3>
+            <p>Développement back-end, connexion aux bases de données, gestion des sessions.</p>
+          </div>
+        </div>
+        <div class="tl-item tl-future">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <span class="tl-date">2026 →</span>
+            <h3>Objectif : Framework & API</h3>
+            <p>Apprentissage de React ou Vue.js et des API REST pour des projets plus ambitieux.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-logo">BT<span class="dot">.</span></div>
+      <p class="footer-copy">© 2026 Babacar Touré — Tous droits réservés</p>
+      <div class="footer-links">
+        <a href="#">GitHub</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">CV</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+  <script src="../js/competences.js"></script>
+</body>
+</html>
+

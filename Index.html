@@ -1,0 +1,232 @@
+ <!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Babacar Touré — Développeur Web</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ========== NAVIGATION ========== -->
+  <nav class="navbar">
+    <div class="nav-logo">BT<span class="dot">.</span></div>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Accueil</a></li>
+      <li><a href="pages/competences.html">Compétences</a></li>
+      <li><a href="pages/contact.html">Contact</a></li>
+    </ul>
+    <button class="burger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero">
+    <div class="hero-bg">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <div class="blob blob-3"></div>
+      <div class="grid-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        Disponible pour des projets
+      </div>
+      <h1 class="hero-title">
+        <span class="line-1">Babacar</span>
+        <span class="line-2">Touré<span class="accent">.</span></span>
+      </h1>
+      <p class="hero-subtitle">Développeur Web — HTML · CSS · JS · PHP</p>
+      <p class="hero-desc">
+        Je crée des expériences web qui combinent design soigné et code solide.
+        Passionné par l'interface utilisateur et les solutions créatives.
+      </p>
+      <div class="hero-cta">
+        <a href="pages/projets.html" class="btn-primary">Voir mes projets</a>
+        <a href="pages/contact.html" class="btn-secondary">Me contacter</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="avatar-frame">
+        <img
+          src="images/babo.jpg"
+          alt="Babacar Touré — Développeur Web"
+          class="avatar-photo"
+        />
+        <div class="avatar-ring ring-1"></div>
+        <div class="avatar-ring ring-2"></div>
+        <div class="tech-tag tag-1">HTML</div>
+        <div class="tech-tag tag-2">CSS</div>
+        <div class="tech-tag tag-3">JS</div>
+        <div class="tech-tag tag-4">PHP</div>
+      </div>
+    </div>
+    <div class="scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ========== STATS ========== -->
+  <section class="stats">
+    <div class="container">
+      <div class="stat-item">
+        <span class="stat-number" data-target="7">0</span>
+        <span class="stat-label">Projets réalisés</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-number" data-target="4">0</span>
+        <span class="stat-label">Technologies</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-number" data-target="1">0</span>
+        <span class="stat-label">An d'apprentissage</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-number" data-target="100">0</span>
+        <span class="stat-label">% Motivé</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROJETS RÉCENTS ========== -->
+  <section class="section projets-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Portfolio</span>
+        <h2 class="section-title">Projets récents</h2>
+        <p class="section-desc">Quelques travaux réalisés en cours et en autonomie.</p>
+      </div>
+      <div class="projets-grid">
+
+        <article class="projet-card featured">
+          <div class="card-img">
+            <div class="card-img-placeholder">Projet 1</div>
+            <div class="card-overlay">
+              <a href="pages/projets.html" class="card-btn">Voir le projet →</a>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="card-tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+            </div>
+            <h3 class="card-title">Nom du projet 1</h3>
+            <p class="card-desc">Description courte du projet. Ce que tu as fait, pourquoi, et ce que tu as appris.</p>
+          </div>
+        </article>
+
+        <article class="projet-card">
+          <div class="card-img">
+            <div class="card-img-placeholder">Projet 2</div>
+            <div class="card-overlay">
+              <a href="pages/projets.html" class="card-btn">Voir →</a>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="card-tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JS</span>
+            </div>
+            <h3 class="card-title">Nom du projet 2</h3>
+            <p class="card-desc">Description courte du projet.</p>
+          </div>
+        </article>
+
+        <article class="projet-card">
+          <div class="card-img">
+            <div class="card-img-placeholder">Projet 3</div>
+            <div class="card-overlay">
+              <a href="pages/projets.html" class="card-btn">Voir →</a>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="card-tags">
+              <span class="tag">PHP</span>
+              <span class="tag">MySQL</span>
+            </div>
+            <h3 class="card-title">Nom du projet 3</h3>
+            <p class="card-desc">Description courte du projet.</p>
+          </div>
+        </article>
+
+      </div>
+      <div class="section-footer">
+        <a href="pages/projets.html" class="btn-outline">Voir tous les projets →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== COMPÉTENCES ========== -->
+  <section class="section skills-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Stack</span>
+        <h2 class="section-title">Mes compétences</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-icon html-icon">&#60;/&#62;</div>
+          <h3>HTML5</h3>
+          <p>Structure sémantique, accessibilité, formulaires</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon css-icon">{ }</div>
+          <h3>CSS3</h3>
+          <p>Flexbox, Grid, animations, responsive design</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon js-icon">JS</div>
+          <h3>JavaScript</h3>
+          <p>DOM, événements, logique interactive</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon php-icon">PHP</div>
+          <h3>PHP & MySQL</h3>
+          <p>Serveur, base de données, formulaires dynamiques</p>
+        </div>
+      </div>
+      <div class="section-footer">
+        <a href="pages/competences.html" class="btn-outline">Toutes mes compétences →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CTA CONTACT ========== -->
+  <section class="cta-section">
+    <div class="cta-bg">
+      <div class="blob blob-cta-1"></div>
+      <div class="blob blob-cta-2"></div>
+    </div>
+    <div class="container cta-content">
+      <h2>Un projet en tête ?</h2>
+      <p>Je suis ouvert aux collaborations, stages et projets freelance.</p>
+      <a href="pages/contact.html" class="btn-primary">Parlons-en →</a>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-logo">BT<span class="dot">.</span></div>
+      <p class="footer-copy">© 2026 Babacar Touré — Tous droits réservés</p>
+      <div class="footer-links">
+        <a href="#">GitHub</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">CV</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
